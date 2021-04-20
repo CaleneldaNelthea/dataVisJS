@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Dottedmap</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+</head>
+<body>
+<div id="map"></div>
+<div id="menu">
+    <input id="streets-v11" type="radio" name="rtoggle" value="streets"/>
+    <label id="streets">streets</label>
+    <input id="light-v10" type="radio" name="rtoggle" value="light"/>
+    <label id="light">light</label>
+    <input id="dark-v10" type="radio" name="rtoggle" value="dark" checked="checked"/>
+    <label id="dark">dark</label>
+    <input id="outdoors-v11" type="radio" name="rtoggle" value="outdoors"/>
+    <label id="outdoors">outdoors</label>
+    <div class="button" id="button-1">
+        <div id="spin"></div>
+        <a href="indexpage.html">Back to home</a>
+    </div>
+</div>
+<script type="text/javascript" src="javascript/pointsmap.js"></script>
+</body>
+</html>
